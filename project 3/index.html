@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthCare+ | Complete Health Management</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cursor Chaser (Fancy Cursor Effect) -->
+  <div id="cursor-chaser"></div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="logo gradient-text">HealthCare+</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#specializations">Specializations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#legalreport">Legal & Report</a></li>
+      <div class="tubelight" id="tubelight"></div>
+    </ul>
+    <!-- Dark Mode Toggle Button -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+      <i class="fas fa-adjust"></i>
+    </button>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="hero">
+    <!-- Background Video -->
+    <video autoplay loop muted playsinline>
+      <source src="https://videos.pexels.com/video-files/2961338/2961338-sd_960_506_24fps.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <!-- Glass Overlay -->
+    <div class="glass-overlay" id="glassOverlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <h1 class="gradient-text">Manage Your Health, Track Your Wellness</h1>
+      <p>
+        Welcome to HealthCare+ — your comprehensive platform for symptom tracking,
+        virtual consultations, medical reports, and personalized health reminders.
+      </p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features">
+    <div class="features-container">
+      <h2>Our Features</h2>
+      <p>Click on any feature box to learn more:</p>
+
+      <div class="features-row">
+        <!-- Example Feature Boxes -->
+        <div class="feature-box"
+          style="background-image: url('https://plus.unsplash.com/premium_photo-1672759323123-996ea638c0ee?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Symptom Tracker</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Disease Management</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://plus.unsplash.com/premium_photo-1664302336737-37fce6daca3c?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Doctor Consultation</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://plus.unsplash.com/premium_photo-1663100463226-0c209dcf4760?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Medical Reports</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Reminders & Alerts</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Community Support</span>
+        </div>
+        <div class="feature-box"
+          style="background-image: url('https://images.unsplash.com/photo-1599700403969-f77b3aa74837?w=600&auto=format&fit=crop&q=60');">
+          <span class="feature-title">Emergency Contact</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALIZATIONS SECTION -->
+  <section id="specializations">
+    <div class="content">
+      <h2>Our Specializations</h2>
+
+      <!-- Example Specialization Box -->
+      <div class="specialization-box">
+        <img class="specialization-img"
+             src="https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?w=600&auto=format&fit=crop&q=60"/>
+        <div class="specialization-info">
+          <h3>General Physician (Internal Medicine) - Dr. Alexander Carter</h3>
+          <p>Diagnoses common illnesses like infections, diabetes, and hypertension.</p>
+        </div>
+      </div>
+
+      <!-- Additional Specialization Boxes -->
+      <div class="specialization-box">
+        <img class="specialization-img"
+             src="https://plus.unsplash.com/premium_photo-1661580574627-9211124e5c3f?w=600&auto=format&fit=crop&q=60"/>
+        <div class="specialization-info">
+          <h3>Cardiologist - Dr. Olivia Bennett</h3>
+          <p>Specializes in heart-related conditions such as heart attacks and arrhythmias.</p>
+        </div>
+      </div>
+
+      <div class="specialization-box">
+        <img class="specialization-img"
+             src="https://images.pexels.com/photos/5867737/pexels-photo-5867737.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+        <div class="specialization-info">
+          <h3>Neurologist - Dr. Ethan Collins</h3>
+          <p>Specializes in diagnosing and treating disorders of the nervous system.</p>
+        </div>
+      </div>
+
+      <div class="specialization-box">
+        <img class="specialization-img"
+             src="https://images.pexels.com/photos/6749778/pexels-photo-6749778.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+        <div class="specialization-info">
+          <h3>Orthopedic Surgeon - Dr. Isabella Romano</h3>
+          <p>Focuses on bones, joints, and muscle conditions.</p>
+        </div>
+      </div>
+
+      <div class="specialization-box">
+        <img class="specialization-img"
+             src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+        <div class="specialization-info">
+          <h3>Dermatologist - Dr. Priya Mehta</h3>
+          <p>Specializes in skin, hair, and nail disorders, including acne and skin cancer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section id="faq">
+    <div class="content">
+      <h2>Frequently Asked Questions</h2>
+      <button class="accordion">How do I create an account?</button>
+      <div class="panel">
+        <p>Click the Login button on our homepage, enter your details, and follow the verification process.</p>
+      </div>
+
+      <button class="accordion">Is my medical data secure?</button>
+      <div class="panel">
+        <p>We use advanced encryption and secure cloud storage to protect your data.</p>
+      </div>
+
+      <button class="accordion">How does the symptom checker work?</button>
+      <div class="panel">
+        <p>Our tracker analyzes your daily entries and offers personalized insights.</p>
+      </div>
+
+      <button class="accordion">Can I consult a doctor online?</button>
+      <div class="panel">
+        <p>Yes! You can schedule virtual consultations with our certified healthcare professionals.</p>
+      </div>
+
+      <button class="accordion">What is the cost of using HealthCare+?</button>
+      <div class="panel">
+        <p>Basic features are free. Premium plans may require a subscription or one-time payment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p class="about-intro">
+        Discover a new era of healthcare with HealthCare+. We simplify managing your
+        well-being with an intuitive interface and personalized insights that empower
+        you to live your healthiest life.
+      </p>
+      <div class="about-content">
+        <!-- About Info Card -->
+        <div class="about-info-card fade-left">
+          <h3>Our Mission & Vision</h3>
+          <p>
+            Our goal is to make healthcare accessible, efficient, and patient-centric.
+            We leverage modern technology to provide seamless virtual consultations,
+            track health data, and keep you informed about your well-being.
+          </p>
+        </div>
+
+        <!-- Login Card -->
+        <div class="about-login-card fade-right">
+          <h3>Login</h3>
+          <form onsubmit="return false;">
+            <div class="form-group">
+              <input type="email" id="login-email" placeholder=" " required />
+              <label for="login-email">Email</label>
+            </div>
+            <div class="form-group">
+              <input type="password" id="login-password" placeholder=" " required />
+              <label for="login-password">Password</label>
+            </div>
+            <button type="submit" class="btn login-btn">Login</button>
+          </form>
+          <p style="text-align: center; margin-top: 10px;">
+            <a href="#" style="color: var(--accent);">Forgot Password?</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p class="contact-intro">We’re here to help! Fill out the form below or contact us directly.</p>
+      <div class="contact-content">
+        <!-- Contact Form Card -->
+        <div class="contact-form-card">
+          <form onsubmit="return handleFormSubmit(event);">
+            <input type="text" id="contact-name" placeholder="Your Name" required />
+            <input type="email" id="contact-email" placeholder="Your Email" required />
+            <input type="text" id="contact-subject" placeholder="Subject" required />
+            <textarea id="contact-message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-send">Send Message</button>
+          </form>
+          <!-- Real-time form feedback -->
+          <p id="form-feedback" style="margin-top:10px; color: var(--accent); font-weight: 500;"></p>
+        </div>
+
+        <!-- Contact Info Card -->
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+          <p><strong>Support Email:</strong> support@healthcareplus.com</p>
+          <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+          <p><strong>Address:</strong> 123 HealthCare+ Blvd, Medical City, Country</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEGAL & REPORT SECTION -->
+  <section id="legalreport">
+    <div class="content">
+      <h2>Legal & Consultation Report</h2>
+      <div class="section-box">
+        <h3>Consultation Report</h3>
+        <p>Review a detailed summary of your recent consultation.</p>
+        <ul>
+          <li><strong>Symptoms:</strong> Headache, fatigue, dizziness.</li>
+          <li><strong>Potential Diagnoses:</strong> Migraine or dehydration.</li>
+          <li><strong>Recommendations:</strong> Stay hydrated, rest, consult if needed.</li>
+        </ul>
+      </div>
+      <div class="section-box">
+        <h3>Legal Information</h3>
+        <p>Your privacy and safety are our top priorities.</p>
+        <p><strong>Privacy Policy, Terms & Conditions, and Medical Disclaimer</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SINGLE FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 HealthCare+. All rights reserved.</p>
+  </footer>
+
+  <!-- CHATBOT WIDGET ICON -->
+  <div class="chatbot" onclick="toggleChatbox(event)">
+    <i class="fa fa-comments"></i>
+  </div>
+
+  <!-- CHATBOX CONTAINER -->
+  <div class="chatbox small" id="chatbox">
+    <div class="chatbox-header">
+      <span>Chat with a Specialist</span>
+      <!-- Chatbox size controls -->
+      <div class="chatbox-size-controls">
+        <i class="fa fa-window-minimize" title="Small" onclick="setChatboxSize('small')"></i>
+        <i class="fa fa-window-restore" title="Half Screen" onclick="setChatboxSize('half')"></i>
+        <i class="fa fa-window-maximize" title="Full Screen" onclick="setChatboxSize('full')"></i>
+      </div>
+    </div>
+
+    <div class="chatbox-body" id="chatbox-body">
+      <p>Specialist: Hi, I'm here to help. Please select your condition:</p>
+      <div class="mcq-options">
+        <div class="mcq-option" onclick="sendMCQResponse('common cold')">Common Cold</div>
+        <div class="mcq-option" onclick="sendMCQResponse('influenza')">Influenza</div>
+        <div class="mcq-option" onclick="sendMCQResponse('other')">Other</div>
+      </div>
+    </div>
+
+    <div class="chatbox-footer">
+      <input type="text" id="chat-input" placeholder="Type your message..." />
+    </div>
+  </div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTop" onclick="scrollToTop()">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- EXTERNAL JS -->
+  <script src="script.js"></script>
+</body>
+</html>
